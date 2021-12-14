@@ -7,12 +7,34 @@
     <meta name="author" content="Manuel Dias">
     <meta name="description" content="Jogo do Galo">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Jogo Do Galo</title>
 </head>
 <body>
-    
+    <section>
+        <h1 class="game-title">Jogo Do Galo</h1>
+
+        <div class="game-container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div><!-- /.game-container -->
+
+        <h2 class="game-status"></h2>
+
+        <button class="game-restart">Reiniciar jogo</button>
+    </section>
 
     <script src="script.js"></script>
 </body>
